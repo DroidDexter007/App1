@@ -9,23 +9,27 @@
     tools:context="com.example.subpraka.app1.DisplayFragment">
 
     <ImageButton
+        style="@style/ImageButtonDisplay"
         android:id="@+id/imb_delete"
         android:layout_width="72dp"
         android:layout_height="72dp"
         android:src=""
         />
     <HorizontalScrollView
+        style="@style/ScrollViewDisplay"
         android:layout_width="match_parent"
         android:layout_height="72dp"
         android:layout_toEndOf="@+id/imb_delete"
         android:layout_toRightOf="@+id/imb_delete">
 
         <TextView
+            style="@style/TextViewDisplay"
             android:layout_width="wrap_content"
             android:layout_height="72dp"
             android:layout_gravity="end"
             tools:text="55+22"
             android:textSize="50sp" />
+
     </HorizontalScrollView>
 
 
