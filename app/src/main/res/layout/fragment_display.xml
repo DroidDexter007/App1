@@ -9,29 +9,35 @@
     tools:context="com.example.subpraka.app1.DisplayFragment">
 
     <ImageButton
-        style="@style/ImageButtonDisplay"
         android:id="@+id/imb_delete"
-        android:layout_width="72dp"
-        android:layout_height="72dp"
-        android:src=""
-        />
+        style="@style/ImageButtonDisplay"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/ic_clear_black_36dp"
+        android:background="@color/windowBackground"
+        android:layout_alignBottom="@+id/horizontalScrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="14dp" />
+
     <HorizontalScrollView
         style="@style/ScrollViewDisplay"
         android:layout_width="match_parent"
         android:layout_height="72dp"
         android:layout_toEndOf="@+id/imb_delete"
-        android:layout_toRightOf="@+id/imb_delete">
+        android:layout_toRightOf="@+id/imb_delete"
+        android:id="@+id/horizontalScrollView">
 
         <TextView
             style="@style/TextViewDisplay"
             android:layout_width="wrap_content"
             android:layout_height="72dp"
             android:layout_gravity="end"
-            tools:text="55+22"
-            android:textSize="50sp" />
+            android:textSize="50sp"
+            tools:text="55+22" />
+
 
     </HorizontalScrollView>
-
 
 
 </RelativeLayout>
