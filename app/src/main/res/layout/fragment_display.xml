@@ -36,10 +36,6 @@
             android:textSize="50sp"
             tools:text="55+22" />
 
-
-
-
     </HorizontalScrollView>
-
 
 </RelativeLayout>
