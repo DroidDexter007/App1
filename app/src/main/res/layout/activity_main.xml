@@ -4,13 +4,13 @@
     android:id="@+id/root_activity_calculator"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.subpraka.app1.MainActivity">
+    tools:context="com.example.subpraka.calapp.MainActivity">
 
     <fragment
         android:id="@+id/frag_display"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:name="com.example.subpraka.app1.DisplayFragment"
+        android:name="com.example.subpraka.calapp.DisplayFragment"
         tools:layout="@layout/fragment_display"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
@@ -20,7 +20,7 @@
         android:id="@+id/frag_input"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="com.example.subpraka.app1.InputFragment"
+        android:name="com.example.subpraka.calapp.InputFragment"
         tools:layout="@layout/fragment_input"
         android:layout_below="@+id/frag_display"
         />

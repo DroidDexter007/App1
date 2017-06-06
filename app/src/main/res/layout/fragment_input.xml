@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:elevation="1dp"
-    tools:context="com.example.subpraka.app1.InputFragment">
+    tools:context="com.example.subpraka.calapp.InputFragment">
 
     <LinearLayout
         android:orientation="horizontal"

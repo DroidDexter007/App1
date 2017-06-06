@@ -1,4 +1,4 @@
-package com.example.subpraka.app1;
+package com.example.subpraka.calapp;
 
 import org.junit.Test;
 
